@@ -1,0 +1,42 @@
+/*Преимущества*/
+.advantages-section {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
+  
+  .advantages-list {
+    @extend %align-center;
+  }
+  
+  .advantages-list-item {
+    margin-right: 30px;
+
+    .icon-advantage {
+      width: 270px;
+      height: 120px;
+      margin-bottom: 30px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-right: 100px;
+      padding-left: 100px;
+      border-radius: 4px;
+      background-color: $secondary-white-color;}
+  }
+  
+  .advantages-list-name {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-title-color;
+  }
+  .advantages-list-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
+  

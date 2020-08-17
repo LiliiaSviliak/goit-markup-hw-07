@@ -1,0 +1,76 @@
+/* Команда */
+.team-section {
+    padding-bottom: 47px;
+    background-color: $secondary-white-color;
+
+    .title {
+      padding-top: 94px; }
+  }
+  
+  .team-list {
+    @extend %align-center;
+  }
+  .team-list-item {
+    background-color: $primary-white-color;
+    width: 270px;
+    height: 422px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child) {
+      margin-right: 30px;}
+  }
+  
+  .team-list-img {
+    margin-bottom: 30px;
+  }
+  .team-list-name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-title-color;
+  }
+  .team-list-position {
+    margin-bottom: 16px;
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
+  .social-list {
+    @extend %align-center;
+  }
+  .social-list-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .social-list-link {
+    @extend %align-center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: $primary-white-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+      background-color: $accent-color;}
+  }
+  
+  .social-list-icon {
+    width: 20px;
+    height: 20px;
+    fill: $socials-main-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+       fill: $primary-white-color;}
+  }
+  
+  
